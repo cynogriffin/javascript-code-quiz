@@ -9,9 +9,56 @@
 </head>
 <body>
     <header>
-        <h1>Code Quiz</h1>
+        <h1 class="title">Code Quiz</h1>
+        <div class="timer">
+            <div class="time_left">Time Left:</div>
+            <div class="timer_sec">30</div>
+        </div>
     </header>
+
+    <section class="info_box">
+        <h2 class="info_title">Welcome to Code Quiz</h2>
+        <div class="info_list">
+            <div class="info">Answer the questions as quickly and acucurately as possible. Wrong answers will result in a time deduction.</div>
+            <div class="info">Please click the start button below when you are ready to begin. </div>
+        </div>
+        <div class="buttons">
+            <button class="restart">Start</button>
+        </div>
+    </section>
+
+    <section class="quiz_box">
+        <section>
+            <div class="question">
+                <!-- insert question from JavaScript -->
+            </div>
+            <div class="answers">
+                <!-- insert answers from JavaScript -->
+            </div>
+        </section>
+    </section>
+
+    <section class="result_box">
+        <h2 class="complete_text">You've completed the quiz!</h2>
+        <div class="score_text">
+            <!-- insert score results from JS -->
+        </div>
+        <form class="highscore_entry">
+            <input type="text" name="initials" placeholder="Enter your initials"/>
+            <button class="hs_button" type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section class="highscore_box">
+        <h2>Highscores</h2>
+        <ul>
+            <!-- add highscores here -->
+        </ul>
+    </section>
     
+    <!-- stores the quiz questions -->
+    <script src="./assets/js/questions.js"></script>
+    <!-- quiz code -->
     <script src="./assets/js/script.js"></script>
 </body>
 </html>
