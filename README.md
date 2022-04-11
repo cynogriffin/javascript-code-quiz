@@ -6,7 +6,7 @@
 
 This project is a timed quiz created with vanilla HTML, CSS, and JavaScript. In it, the user will take a quiz of some simple multiple-choice code questions. For every wrong answer, time will be deducted from the total. The quiz ends when the timer runs out or all the questions have been answered. The time remaining at the end of the quiz will be the result of the user's score. The user will then be prompted to enter their initials for highscore tracking and then will be give the option to restart the quiz or quit.
 
-![instructions presented at start of quiz](link here)
+![instructions presented at start of quiz](https://github.com/cynogriffin/javascript-code-quiz/blob/main/assets/images/screenshot.png)
 
 The live site with the completed app can be found [here](https://cynogriffin.github.io/decent-password-generator/). Please feel free to use and test the application and let me know of any possible improvements or suggestions.
 
